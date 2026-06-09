@@ -1,0 +1,39 @@
+{
+  "name": "HARMOLINK Pro",
+  "short_name": "Harmolink Pro",
+  "description": "Vois l'harmonie en temps réel. Détection MIDI, 50+ accords, 7 modes, export MIDI/PDF/WAV.",
+  "start_url": "/pro/",
+  "scope": "/pro/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f0e0c",
+  "theme_color": "#0f0e0c",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["music", "education", "utilities"]
+}
