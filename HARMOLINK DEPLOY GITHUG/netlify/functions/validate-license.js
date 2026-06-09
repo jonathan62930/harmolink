@@ -106,7 +106,7 @@ exports.handler = async (event) => {
 // Empêche un simple `localStorage.setItem('valid', '1')` de bypasser
 function generateToken(licenseKey) {
   const SECRET = process.env.TOKEN_SECRET || 'harmolink-secret-change-me';
-  const payload = `${licenseKey}:${SECRET}:${Math.floor(Date.now() / 86400000)}`; // valide 24h par jour
+  const payload = `${licenseKey}:${SECRET}:${Math.floor(Date.now() / 604800000)}`; // valide 24h par jour
   // Hash simple (pas crypto, mais suffisant pour usage front-end)
   let hash = 0;
   for (let i = 0; i < payload.length; i++) {
