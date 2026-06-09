@@ -1,0 +1,8 @@
+[build]
+  functions = "netlify/functions"
+
+# Optionnel : redirige /api/* vers les functions
+[[redirects]]
+  from = "/api/validate-license"
+  to = "/.netlify/functions/validate-license"
+  status = 200
